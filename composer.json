@@ -44,7 +44,7 @@
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"AvoRed\\RestApi\\RestApiProvider"
+				"AvoRed\\RestApi\\AvoRedRestApiProvider"
 			]
 		}
 	},
