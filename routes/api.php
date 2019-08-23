@@ -12,4 +12,4 @@
 |
 */
     
-Route::get('/menu/{identifier}', [\AvoRed\RestApi\Cms\Controllers\MenuController::class, 'index']);
+Route::get('/menu/{identifier}', [\AvoRed\RestApi\Cms\Controllers\MenuGroupController::class, 'index']);

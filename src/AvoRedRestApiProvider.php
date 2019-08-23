@@ -32,7 +32,7 @@ class AvoRedRestApiProvider extends ServiceProvider
     public function registerRoutePath()
     {
         Route::prefix('api')
-             ->middleware('api')
-             ->group(__DIR__.'/../routes/api.php');
+            ->middleware('api')
+            ->group(__DIR__.'/../routes/api.php');
     }
 }
