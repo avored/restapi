@@ -22,7 +22,8 @@ class MenuResource extends JsonResource
             'url' => $this->url,
             'sort_order' => $this->sort_order,
             'created_at' => $this->created_at,
-            'updated_at' => $this->updated_at
+            'updated_at' => $this->updated_at,
+            'submenus' => $this->whenLoaded('submenus')
         ];
     }
 }
